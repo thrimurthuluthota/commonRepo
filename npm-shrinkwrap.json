@@ -1,0 +1,101 @@
+{
+  "dependencies": {
+    "broccoli-funnel": {
+      "version": "@@broccoli-funnel_VERSION"
+    },
+    "broccoli-merge-trees": {
+      "version": "@@broccoli-merge-trees_VERSION"
+    },
+    "ember-cli-babel": {
+      "version": "@@ember-cli-babel_VERSION"
+    },
+    "ember-cli-htmlbars": {
+      "version": "@@ember-cli-htmlbars_VERSION"
+    },
+    "ember-cli-simple-auth": {
+        "version": "@@ember-cli-simple-auth_VERSION"
+    },
+    "ember-cli-simple-auth-cookie-store": {
+      "version": "@@ember-cli-simple-auth-cookie-store_VERSION"
+    },
+    "liquid-fire": {
+            "version": "@@liquid-fire_VERSION"
+    },
+    "broccoli-sass": {
+      "version": "@@broccoli-sass_VERSION"
+    },
+    "ember-cli-htmlbars": {
+      "version": "@@ember-cli-htmlbars_VERSION"
+    },
+    "ember-cli-babel": {
+      "version": "@@ember-cli-babel_VERSION"
+    },
+    "wb-ui-core": {
+      "version" : "@@wb-ui-core_VERSION",
+      "dependencies": {
+        "ember-cli-babel": {
+          "version": "@@ember-cli-babel_VERSION"
+        },
+        "ember-cli-simple-auth": {
+            "version": "@@ember-cli-simple-auth_VERSION"
+        },
+        "ember-cli-simple-auth-cookie-store": {
+            "version": "@@ember-cli-simple-auth-cookie-store_VERSION"
+        }
+      }
+    },
+    "wb-ui-theme": {
+      "version" : "@@wb-ui-theme_VERSION",
+      "dependencies": {
+        "ember-cli-babel": {
+          "version" : "@@ember-cli-babel_VERSION"
+        },
+        "ember-cli-htmlbars": {
+          "version" : "@@ember-cli-htmlbars_VERSION"
+        },
+        "broccoli-funnel":{
+          "version" : "@@broccoli-funnel_VERSION"
+        },
+        "broccoli-merge-trees": {
+          "version" : "@@broccoli-merge-trees_VERSION"
+        }
+      }
+    },
+    "wb-ui-components": {
+      "version" : "@@wb-ui-components_VERSION",
+      "dependencies": {
+        "ember-cli-babel": {
+          "version" : "@@ember-cli-babel_VERSION"
+        },
+        "ember-cli-htmlbars": {
+          "version" : "@@ember-cli-htmlbars_VERSION"
+        }
+      }
+    },
+    "wb-ui-base-app": {
+      "version": "@@wb-ui-base-app_VERSION",
+      "dependencies": {
+        "broccoli-sass": {
+          "version": "@@broccoli-sass_VERSION"
+        },
+        "ember-cli-htmlbars": {
+          "version": "@@ember-cli-htmlbars_VERSION"
+        },
+        "ember-cli-babel": {
+          "version": "@@ember-cli-babel_VERSION"
+        }
+      }
+    },
+    "wb-ui-formservices": {
+      "version": "@@wb-ui-formservices_VERSION",
+      "dependencies": {
+        "ember-cli-htmlbars": {
+          "version": "@@ember-cli-htmlbars_VERSION"
+        },
+        "ember-cli-babel": {
+          "version": "@@ember-cli-babel_VERSION"
+        }
+      }
+    }
+  }
+}
