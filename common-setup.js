@@ -13,3 +13,4 @@ execCmd('node common-scripts/setup-dependencies-json.js');
 
 execCmd('npm install');
 execCmd('bower install');
+// thota
